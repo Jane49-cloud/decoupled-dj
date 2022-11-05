@@ -107,6 +107,7 @@ h2 {
   font-size: 20px;
   max-width: 900px;
   margin: auto;
+  margin-top: 2rem;
   background-color: #eee;
   border:  1px solid #222;
 }
@@ -114,6 +115,7 @@ h2 {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+  margin-top: 1rem;
 }
 .form__field {
   margin-bottom: 2em;

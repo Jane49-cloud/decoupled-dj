@@ -10,4 +10,6 @@ module.exports = {
  outputDir: path.resolve(__dirname, "../static", "billing"),
 indexPath: path.resolve(__dirname, "../templates/", "billing",
 "index.html")
+ devServer: {
+ proxy: "http://localhost:8000"}
 };
